@@ -1,0 +1,109 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.login-form {
+  background-color: #111;
+  color: white;
+  padding: 40px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.forgot-password {
+  text-align: right;
+  width: 100%;
+}
+
+.forgot-password a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.login-button, .admin-button, .signup-button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c43c7;
+  color: white;
+  font-size: 1rem;
+}
+
+.or-divider {
+  color: #bbb;
+  margin: 20px 0;
+}
+
+.signup-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.signup-option p {
+  margin-right: 10px;
+  color: #bbb;
+}
+
+.signup-button {
+  background-color: #333;
+  color: #bbb;
+}
+
+.welcome-section {
+  background-color: #a058ec;
+  color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.welcome-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.welcome-section img {
+  width: 80%;
+  max-width: 500px;
+}

@@ -1,0 +1,45 @@
+/* DataTable.css */
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between cells */
+    margin-top: 20px; /* Space above the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+}
+
+thead {
+    background-color: #4caf50; /* Header background color */
+    color: white; /* Header text color */
+}
+
+th, td {
+    padding: 15px; /* Cell padding */
+    text-align: left; /* Left-align text */
+    border-bottom: 1px solid #ddd; /* Border below cells */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light background for even rows */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Hover effect */
+}
+
+th {
+    font-weight: bold; /* Bold text for headers */
+    font-size: 1.1em; /* Larger font size */
+}
+
+td {
+    font-size: 1em; /* Standard font size */
+    color: #333; /* Dark text color */
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9em; /* Smaller font size on mobile */
+    }
+}

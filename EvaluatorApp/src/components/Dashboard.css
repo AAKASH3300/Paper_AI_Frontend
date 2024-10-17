@@ -1,0 +1,154 @@
+.dashboard-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #6c43c7;
+  color: white;
+  width: 15%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-logo img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 15px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  width: 85%;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info .profile-pic {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.welcome-section {
+  background-color: #a058ec;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-section h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.info-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.basic-info, .attendance {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  padding: 20px;
+  width: 45%;
+  margin-right: 10px;
+}
+
+.basic-info h4, .attendance h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.attendance-chart {
+  width: 100px;
+  height: 100px;
+  background-color: #a058ec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.courses-section {
+  margin-top: 20px;
+}
+
+.courses {
+  display: flex;
+  gap: 10px;
+}
+
+.course-card {
+  background-color: #f5f5ff;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 45%;
+}
+
+.course-card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a058ec;
+  color: white;
+  cursor: pointer;
+}
+
+.instructor-notice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.instructors, .notices {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  padding: 15px;
+  width: 45%;
+}
+
+.instructor-list img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.notices p {
+  margin: 0;
+  margin-bottom: 10px;
+}
